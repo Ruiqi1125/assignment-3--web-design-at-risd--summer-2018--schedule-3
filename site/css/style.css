@@ -1,0 +1,46 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #EEEEEE;
+   background-image: url(img/long.png);
+   background-repeat: repeat;
+}
+
+h1 {
+   position:absolute;
+   font-size: 64px;
+   font-weight: 800;
+   text-align: center;
+   top:40px;
+   right: 10%;
+   color: #444444;
+}
+
+h2 {
+   position:absolute;
+   font-size: 32px;
+   font-weight: 600;
+   right:10%;
+   top: 130px;
+   color: #444444;
+}
+
+h3 {
+   position:absolute;
+   font-size: 48px;
+   font-weight: 800;
+   color:#EEEEEE;
+   background-color: #79533C;
+   top:35%;
+   left:0%;
+   padding:20px;
+   padding-left: 20%;
+   padding-right: 50px;
+   padding-bottom: 60px;
+}
+
+.dot {
+   width:66%;
+   position:absolute;
+   right: 0px;
+   top: 60px;
+}
