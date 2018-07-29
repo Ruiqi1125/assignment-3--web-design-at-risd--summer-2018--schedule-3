@@ -29,13 +29,21 @@ h3 {
    font-size: 48px;
    font-weight: 800;
    color:#EEEEEE;
-   background-color: #79533C;
-   top:35%;
-   left:0%;
-   padding:20px;
-   padding-left: 20%;
-   padding-right: 50px;
-   padding-bottom: 60px;
+   background-color: #DF2324;
+   top:300px;
+   left:-10%;
+   padding:20px 20px 60px 300px;
+   border-right:solid 20px #DF2324;
+   border-radius:20px;
+}
+
+p {
+   margin: 20px;
+   padding:10px;
+   /*
+   border-right:solid 10px #79533C;
+   */
+   line-height:20px;
 }
 
 .dot {
@@ -43,4 +51,36 @@ h3 {
    position:absolute;
    right: 0px;
    top: 60px;
+}
+
+.box {
+   display: flex;
+   color:#444444;
+   background-color: #C6C6C9;
+   border-right:solid 20px #000000;
+}
+
+.box :first-child {
+   width: 40%;
+   flex: 0 0 auto;
+}
+
+.box :nth-child(2) {
+   width: 40%;
+   flex: 0 0 auto;
+}
+
+.whole{
+   margin-left: 200px;
+   margin-top: 500px;
+   margin-right:5%;
+}
+
+.whole :first-child {
+   border-top-left-radius:50px;
+}
+
+.bold {
+   font-size: 18px;
+   font-weight: 600;
 }
