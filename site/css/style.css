@@ -108,18 +108,18 @@ footer {
 
 .radio2 {
    position:absolute;
-   width: 200px;
-   right:-100px;
-   top: 50px;
+   width: 150px;
+   right:-80px;
+   top: 100px;
 }
 
 .intro-title {
    position:absolute;
    font-size: 64px;
    font-weight: 800;
-   top:180px;
-   left:365px;
-   padding:10px;
+   top:195px;
+   left:360px;
+   padding:15px;
    padding-top:5px;
    color: #444444;
    border-color: #DF2324;
@@ -142,10 +142,10 @@ footer {
    position:absolute;
    font-size: 32px;
    font-weight: 600;
-   top:240px;
-   left:350px;
+   top:245px;
+   left:345px;
    color: #444444;
-   padding:10px;
+   padding:15px;
    border-color: #DF2324;
    border-radius:0px;
    border-left: solid 5px #DF2324;
