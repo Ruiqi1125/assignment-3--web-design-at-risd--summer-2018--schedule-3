@@ -106,6 +106,13 @@ footer {
    top: 100px;
 }
 
+.radio2 {
+   position:absolute;
+   width: 200px;
+   right:-100px;
+   top: 50px;
+}
+
 .intro-title {
    position:absolute;
    font-size: 64px;
@@ -185,4 +192,18 @@ footer {
 .back-dark:hover {
    transition: 500ms;
    opacity: 100;
+}
+
+.credit {
+   text-decoration-line: none;
+   color: #DDDDDD;
+}
+
+.credits {
+   color: #DDDDDD;
+   position:absolute;
+   bottom: 10px;
+   right:35%;
+   padding:10px;
+   margin:0px;
 }
