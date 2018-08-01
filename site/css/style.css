@@ -5,7 +5,7 @@ body {
    background-repeat: repeat;
 }
 
-h1 {
+.title {
    position:absolute;
    font-size: 64px;
    font-weight: 800;
@@ -97,4 +97,92 @@ footer {
    padding:40px;
    border-radius: 10px;
    margin:40px;
+}
+
+.radio {
+   position:absolute;
+   width: 400px;
+   left:-100px;
+   top: 100px;
+}
+
+.intro-title {
+   position:absolute;
+   font-size: 64px;
+   font-weight: 800;
+   top:180px;
+   left:365px;
+   padding:10px;
+   padding-top:5px;
+   color: #444444;
+   border-color: #DF2324;
+   border-radius:0px;
+   border-left: solid 5px #DF2324;
+}
+
+.intro {
+   position:absolute;
+   top:300px;
+   left:350px;
+   right:10%;
+}
+
+.intro:hover {
+   background-color: transparent;
+}
+
+.id {
+   position:absolute;
+   font-size: 32px;
+   font-weight: 600;
+   top:240px;
+   left:350px;
+   color: #444444;
+   padding:10px;
+   border-color: #DF2324;
+   border-radius:0px;
+   border-left: solid 5px #DF2324;
+}
+
+.id:hover {
+   background-color: transparent;
+}
+
+.button {
+   background-color: #DF2324;
+
+   position:absolute;
+   font-size: 32px;
+   font-weight: 800;
+   color:#EEEEEE;
+   background-color: #DF2324;
+
+   padding:10px;
+   border:solid 20px #DF2324;
+   border-radius:10px;
+
+   top:500px;
+   right:10%;
+
+   text-decoration-line: none;
+}
+
+.back {
+   position: absolute;
+   left:60px;
+   top:50px;
+   width:60px;
+}
+
+.back-dark {
+   position: absolute;
+   left:60px;
+   top:50px;
+   width:60px;
+   opacity: 0;
+}
+
+.back-dark:hover {
+   transition: 500ms;
+   opacity: 100;
 }
