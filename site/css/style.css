@@ -32,7 +32,7 @@ h3 {
   background-color: #DF2324;
   top: 350px;
   left: -10%;
-  padding: 20px 20px 60px 300px;
+  padding: 40px 20px 40px 300px;
   border-right: solid 20px #DF2324;
   border-radius: 10px;
 }
@@ -168,6 +168,12 @@ footer {
   text-decoration-line: none;
 }
 
+.button:hover {
+   background-color: #c91819;
+   border-color: #c91819;
+   color: #DDDDDD;
+}
+
 .back {
   position: absolute;
   left: 60px;
@@ -191,6 +197,7 @@ footer {
 .credit {
   text-decoration-line: none;
   color: #DDDDDD;
+  transition: 500ms;
 }
 
 .credits {
@@ -200,4 +207,13 @@ footer {
   right: 35%;
   padding: 10px;
   margin: 0px;
+}
+
+.credits:hover {
+   color: #444444;
+}
+
+.credits:hover > .credit {
+   color: #444444;
+   transition: 500ms;
 }
