@@ -169,9 +169,9 @@ footer {
 }
 
 .button:hover {
-   background-color: #c91819;
-   border-color: #c91819;
-   color: #DDDDDD;
+  background-color: #c91819;
+  border-color: #c91819;
+  color: #DDDDDD;
 }
 
 .back {
@@ -210,10 +210,10 @@ footer {
 }
 
 .credits:hover {
-   color: #444444;
+  color: #444444;
 }
 
 .credits:hover > .credit {
-   color: #444444;
-   transition: 500ms;
+  color: #444444;
+  transition: 500ms;
 }
