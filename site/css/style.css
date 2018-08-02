@@ -40,12 +40,10 @@ h3 {
 p {
   margin: 15px;
   padding: 20px;
-  /*
-  border-right:solid 10px #79533C;
-  */
   line-height: 20px;
   transition: 500ms;
   border-radius: 10px;
+  line-height: 25px;
 }
 
 p:hover {
@@ -65,18 +63,18 @@ p:hover {
 }
 
 .box :first-child {
-  width: 42%;
+  width: 40%;
   flex: 0 0 auto;
 }
 
 .box :nth-child(2) {
-  width: 42%;
+  width: 40%;
   flex: 0 0 auto;
 }
 
 .whole {
   margin-left: 200px;
-  margin-top: 500px;
+  margin-top: 520px;
   margin-right: 5%;
   margin-bottom: 100px;
 }
@@ -106,8 +104,8 @@ footer {
 
 .radio2 {
   position: absolute;
-  width: 150px;
-  right: -80px;
+  width: 80px;
+  right: 0;
   top: 100px;
 }
 
